@@ -65,7 +65,7 @@
     cursor: pointer;
 }
 
-.section_projects_img:last-of-type {
+.section_project_img_last {
     margin-bottom: 0;
 }
 
