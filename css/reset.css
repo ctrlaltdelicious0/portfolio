@@ -1,0 +1,92 @@
+/* 1. Set universal box-sizing and remove default padding/margin */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* 2. Set core body defaults */
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 3. Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* 4. Remove quotes from blockquotes and q */
+blockquote,
+q {
+    quotes: none;
+}
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: "";
+}
+
+/* 5. Reset headings */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: normal;
+}
+
+/* 6. Remove default button and input styles */
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    outline: none;
+    appearance: none;
+}
+
+/* 7. Make images behave like block elements and fit containers */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 8. Remove anchor styling */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 9. Normalize table elements */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 10. Normalize form element rendering */
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 11. Prevent iOS text size adjust after orientation change */
+html {
+    -webkit-text-size-adjust: 100%;
+}

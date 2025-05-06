@@ -1,0 +1,17 @@
+.scroll_up_button_container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+}
+
+.scroll_up_button {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: #101010;
+    cursor: pointer;
+}
