@@ -18,6 +18,10 @@
 }
 
 @media (max-width: 768px) {
+    .section_title {
+        height: 45vh
+    }
+
     .section_title_h1 {
         font-size: 3.25rem;
     }
